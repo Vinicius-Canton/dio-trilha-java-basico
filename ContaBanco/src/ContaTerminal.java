@@ -13,6 +13,6 @@ public class ContaTerminal {
         String ag = entrada.nextLine();
 
         System.out.println("Olá, " + nome+", obrigado por criar uma conta em nosso banco, sua agencia é " + ag+", conta " + numero + " e seu saldo: " + saldo + " já está disponível para saque.");
-        
+        entrada.close();
     }
 }
